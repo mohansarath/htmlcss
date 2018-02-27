@@ -8,14 +8,33 @@ footer {
     color: white;
     padding: 15px;
   }
-button{
+button.btn{
     float: right;
     background-color: black;
     color: white;
+    border-radius: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
   }
 #grey{
     background-color: #b4bbc6;
+    border-style: solid;
+    border-color: black;
 }
 p{
     text-align:justify ;
+}
+.well{
+    border-style: solid;
+    border-color: black;
+}
+.shade{
+    background-color:#0A0A0A;
+}
+h2 ,h3,h4{
+    font-weight: bold;
+}
+#sub{
+    padding-bottom: 40px;
 }
